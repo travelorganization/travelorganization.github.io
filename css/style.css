@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;1,600&display=swap');
+
+body {
+    font-family: 'Poppins',
+        sans-serif;
+    background-color: #111;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+
+    height: 100vh;
+    background-color: black;
+
+}
+
+.banner img {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+    opacity: .30;
+
+
+}
+
+.banner header {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.logo {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.banner header .toggle {
+    position: relative;
+    width: 38px;
+    height: 28px;
+    background-image: url("/images/toggle.png");
+
+    background-size: cover;
+
+}
+
+.banner .content {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px 250px;
+    text-align: center;
+}
+
+.banner .content h2 {
+    color: #fff;
+    font-size: 4em;
+
+}
+
+.banner .content p {
+    color: #fff;
+    font-size: 1em;
+
+}
+
+.banner .content a {
+    background-color: #fff;
+    color: black;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 10px;
+    transition: 300ms all;
+    -webkit-transition: 300ms all;
+    -moz-transition: 300ms all;
+    -ms-transition: 300ms all;
+    -o-transition: 300ms all;
+}
+
+.banner .content a:hover {
+    background-color: rgb(160, 160, 160);
+    color: black;
+}
+
+.banner::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 400px;
+    z-index: 2;
+    background: linear-gradient(to top, #111, transparent)
+}
+
+.heading {
+    color: #fff;
+    font-size: 40px;
+}
+
+.text {
+    color: #fff;
+    font-size: 16px;
+}
+
+/* Feel */
+.feel {
+    background-color: #111;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+
+
+}
+
+.feel .contentbox {
+    position: relative;
+    width: 50%;
+    text-align: right;
+    margin-right: 15px;
+    max-width: 600px;
+
+
+}
+
+.feel .contentbox a {
+    display: inline-block;
+    width: 200px;
+    padding: 10px 15px;
+    background-color: #fff;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #111;
+    font-weight: 600;
+    transition: 300ms all;
+    -webkit-transition: 300ms all;
+    -moz-transition: 300ms all;
+    -ms-transition: 300ms all;
+    -o-transition: 300ms all;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.feel .contentbox a:hover {
+    background-color: #ddd;
+
+}
+
+.feel .imagebox {
+    position: relative;
+    width: 50%;
+
+
+}
+
+.feel .imagebox img {
+    width: 80%;
+}
+
+/* Banner 2 */
+
+.banner2::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 400px;
+    z-index: 2;
+    background: linear-gradient(to bottom, #111, transparent)
+}
+
+
+.banner2 {
+    position: relative;
+    width: 100%;
+}
+
+.banner2::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 400px;
+    z-index: 2;
+    background: linear-gradient(to top, #111, transparent)
+}
+
+
+.banner2 img {
+
+    position: relative;
+    width: 100%;
+    object-fit: cover;
+    background-size: cover;
+}
+
+.fitBg {
+    position: absolute;
+    left: 0;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+}
+
+.btn {
+    display: inline-block;
+    width: 200px;
+    padding: 10px 15px;
+    background-color: #fff;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #111;
+    font-weight: 600;
+    transition: 300ms all;
+    -webkit-transition: 300ms all;
+    -moz-transition: 300ms all;
+    -ms-transition: 300ms all;
+    -o-transition: 300ms all;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+/* destination */
+.destination {
+    text-align: center;
+    padding: 60px 30px;
+}
+
+.destination .content {
+    text-align: center;
+}
+
+
+
+.destination .destinationList {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.destination .destinationList .box {
+    position: relative;
+    min-width: 350px;
+    height: 480px;
+    background-color: #191919;
+    transition: 300ms all;
+    -webkit-transition: 300ms all;
+    -moz-transition: 300ms all;
+    -ms-transition: 300ms all;
+    -o-transition: 300ms all;
+    margin: 10px;
+}
+
+.destination .destinationList:hover .box {
+    opacity: 0.2;
+}
+
+.destination .destinationList .box:hover {
+    opacity: 1;
+}
+
+.destination .destinationList .box .imagebox {
+    position: relative;
+    width: 100%;
+    height: 400px;
+
+}
+
+.destination .destinationList .box .imagebox img {
+
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.destination .destinationList .box .content {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 100%;
+
+
+}
+
+
+.destination .destinationList .box .content h2 {
+    color: #fff;
+}
+
+.destination .destinationList .box .content span {
+    color: #fff;
+}
+
+.destination .destinationList .box .content h2 {
+    color: #fff;
+}
+
+.banner3 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.banner3::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 400px;
+    z-index: 2;
+    background: linear-gradient(to top, #111, transparent)
+}
+
+.banner3::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 400px;
+    z-index: 2;
+    background: linear-gradient(to bottom, #111, transparent)
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.footer .sci {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer .sci li {
+    list-style-type: none;
+}
+
+.footer .sci li a {
+    margin-left: 10px;
+
+}
+
+.footer .sci li a img {
+    max-width: 40px;
+    height: 40px;
+    filter: invert(1);
+    -webkit-filter: invert(1);
+    margin-bottom: 10px;
+
+}
+
+.footer .copyright {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.footer span {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+@media(max-width:761px) {
+    .banner .content {
+        padding: 20px 50px;
+    }
+
+    .feel {
+        padding: 10px;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .feel .contentbox {
+        max-width: 100%;
+        width: 100%;
+        margin-top: 50%;
+        text-align: center;
+    }
+
+    .feel .contentbox a {
+        margin-top: 15px;
+    }
+
+    .feel .imagebox {
+        width: 80%;
+        margin: 15px;
+    }
+
+    .feel .imagebox img {
+        width: 100%;
+    }
+}
